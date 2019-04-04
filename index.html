@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <!-- Link to Reset CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <!-- Link to Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Link to Styles CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <!-- Link to JQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Link to javascript -->
+        <script src="assets/javascript/javascript.js"></script>
+        
+        <!-- Title -->
+        <title>Crystal Collector!</title>
+    </head>
+    <body style="background-color:#0000ff; opacity: 0.9;">
+        <div class="jumbotron">
+            <h1>Crystal Collector the Game!</h1>
+            <h2>Made by Devin Powell</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="container">
+                    <h3>Target Score: </h3><p id="targetScore"></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="container">
+                    <h3>Your Score: </h3><p id="userScoreCounter"></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="container">
+                    <h3>Wins: </h3><p id="wins"></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="container">
+                    <h3>Losses: </h3><p id="losses"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <button class="redBtn"><img src="assets/images/red-gem.png" alt="Crystal 1"></button>
+            </div>
+            <div class="col-md-3">
+                <button class="blueBtn"><img src="assets/images/blue-gem.png" alt="Crystal 2"></button>
+            </div>
+            <div class="col-md-3">
+                <button class="yellowBtn"><img src="assets/images/yellow-gem.png" alt="Crystal 3"></button>
+            </div>
+            <div class="col-md-3">
+                <button class="whiteBtn"><img src="assets/images/white-gem.png" alt="Crystal 4"></button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <footer>
+                <h3 class="white-text">Each Crystal is worth a different value between 1 - 12. Your goal is to reach the "Target Score" without going over!</h3>
+            </footer>
+        </div>
+    </body>
+</html>
