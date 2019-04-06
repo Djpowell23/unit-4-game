@@ -56,10 +56,10 @@ $(document).ready(function() {
 });
 
 // Generate a random target score
-// function generateTargetScore() {
-//     var targetScore = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
-//     $('#targetScore').html(targetScore);
-// }
+function generateTargetScore() {
+    var targetScore = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
+    $('#targetScore').html(targetScore);
+}
 
 function gameLogic() {
     // Winning Statement
@@ -75,7 +75,7 @@ function gameLogic() {
 } 
 
 function gameReset() {
-    var targetScore = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
+    targetScore = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
     userScoreCounter = 0;
     $("#targetScore").html(targetScore);
     $("#wins").html(wins);
